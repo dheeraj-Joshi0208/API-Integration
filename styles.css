@@ -11,6 +11,16 @@ body {
   height: 100vh;
 }
 
+.header-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #3b2a2a;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
