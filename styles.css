@@ -1,8 +1,13 @@
-/* CSS boilerplate */
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* CSS Boilerplate */
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
 }
 
 html,
@@ -13,12 +18,10 @@ body {
 
 .header-heading {
   text-align: center;
-  font-size: 2rem;
   font-weight: bold;
-  padding: 1rem;
-  margin-bottom: 20px;
+  padding: 1rem 0rem;
   text-transform: uppercase;
-  color: #3b2a2a;
+  color: #333333;
 }
 
 .card-container {
@@ -32,14 +35,10 @@ body {
 .card {
   max-width: 280px;
   border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #fff;
   transition: transform 0.3s ease-in-out;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   cursor: pointer;
 }
 
@@ -58,12 +57,11 @@ body {
 }
 
 .card-title {
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
 .card-text {
-  font-size: 14px;
+  font-size: 13px;
   color: #727070;
 }
